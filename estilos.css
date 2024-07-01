@@ -1,0 +1,426 @@
+
+.fondo1 {
+    background-color:#274654  ;
+    
+}
+.fondo2 {
+    background-color: #d1a158;
+}
+header { 
+    background-color: #597683  ;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+#menu ul li a{
+    color: antiquewhite;
+    font-weight: 500;
+}
+.bg1{
+    background-color: #299d8f;
+    border-bottom-left-radius:2rem  ;
+    border-bottom-right-radius: 2rem;
+    
+}
+.btn{
+    background-color: #1a3a49;
+    border-color:#274654 ;
+}
+.bg2{
+    background-color: #274654 ;
+    border-color: #274654;
+    
+}
+
+.bg2 h2{
+    color: antiquewhite;
+}
+.bg2 p{
+    color: antiquewhite;
+}
+
+.fondo1{
+    color: antiquewhite;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6, .col-xl-3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem; 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-text {
+  flex: 1;
+}
+
+.btn {
+  margin-top: auto;
+}
+
+
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+  }
+.logo {
+    background: url('img/logo_pc.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    width: 194px;
+    height: auto;
+    z-index: 10;
+    font-size: 0;
+    left: 2rem;
+    top: 5px;
+    bottom: 5px;
+}
+
+footer {
+  background-color: #1a3a49; 
+  padding: 20px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redessociales h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.redessociales .d-flex {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.redessociales {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.redsocial {
+  margin: 0 12px; 
+  text-align: center;
+}
+
+.redsocial img {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+}
+
+.alumnos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.alumno {
+  margin: 10px;
+  text-align: center; 
+}
+
+.alumnos img {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+}
+
+.datos-cursada {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.datos-cursada p {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.datos-cursada.d-none {
+  display: none;
+}
+
+#info-btn {
+  background-color: #f8f9fa; 
+  border: 1px solid #dee2e6;
+  color: #000;
+  margin-top: 20px;
+}
+
+
+.borde {
+    border: 1px solid #1a3a49
+}
+
+.space-between-sections {
+  margin: 3rem 0;
+}
+
+.form-title {
+  text-align: center; 
+  font-size: 2rem; 
+  margin-bottom: 1rem;
+  color: antiquewhite;
+
+}
+
+.form-description {
+  text-align: center; 
+  font-size: 1.5rem; 
+  margin-bottom: 1rem;
+  color: antiquewhite;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+  input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    border: none;
+  }
+  
+  #datosDisponibles {
+    margin-top: 40px;
+    text-align: center;
+    max-width: 50rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #299d8f; 
+  }
+  
+  #guardar, #borrarTodo {
+    background-color: #299d8f;
+    width: 10rem;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 1rem;
+  }
+  
+  #borrarTodo {
+    display: block;
+    background-color: #bd2b48;
+  }
+  
+  .mi-clase {
+    color: rgb(6, 6, 6);
+    padding: 10px;
+  }
+  
+  #calendar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+#botonesp{
+  display: inline;
+}
+  
+  .dia {
+    border: 2px solid #cccccc;
+    border-radius: 2rem;
+    background-color: rgb(219, 205, 186);
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .dia h3{
+    font-weight: 450;
+  }
+  
+  .events {
+    margin-top: 10px;
+  }
+
+  #diaSemana{
+    border: 2px solid #cccccc;
+    background-color: rgb(238, 238, 238);
+    border-radius: 1rem;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  
+  }
+  #categoria{
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 1rem;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #cccccc;
+  
+  }
+  .event {
+    background-color: rgba(65, 224, 197, 0.614);
+    border-radius: 1rem;
+    padding: 5px;
+    margin-bottom: 5px;
+  }  
+    .editarB {
+  
+    border-radius: 1rem;
+    background-color: #bd2b48;
+    border: none;
+    color: antiquewhite;
+    
+
+  }
+  .borrarB {
+    float: right;
+    border-radius: 1rem;
+    background-color: #bd2b48;
+    border: none;
+    color: antiquewhite;
+    
+
+  }
+#nombre{
+    border-style: none;
+    border-radius: 1rem;
+    background-color: rgb(243, 243, 243);
+
+}
+
+#email{
+  border-style: none;
+  border-radius: 1rem;
+  background-color: rgb(243, 243, 243);
+  
+}
+
+#mensaje{
+  border-style: none;
+  border-radius: 1rem;
+  background-color: rgb(243, 243, 243);
+
+
+}
+  .contact-form-section {
+    padding: 20px 0;
+    background-color: #d1a158;
+}
+
+.ByE{
+  display: flex;
+}
+.contact-title {
+    color: rgb(250, 235, 215);
+    text-align: center;
+}
+
+form[name="contactForm"] {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffffb7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form[name="contactForm"] p {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+form[name="contactForm"] input[type="text"],
+form[name="contactForm"] input[type="email"],
+form[name="contactForm"] textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form[name="contactForm"] button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 991px){
+    .logo {
+        background: url(img/logo_tablet.png);
+        height: 100px;
+        width: 129px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        background: url(img/logo_cel.png);
+        left: calc(50% - 15px);
+        height: 80px;
+        width: 81px;
+    }
+}
+
+
+@media (max-width: 768px) {
+  .dia {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .dia {
+    width: calc(100% - 20px);
+  }
+}
